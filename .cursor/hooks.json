@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "node .cursor/hooks/pii_scan.mjs",
+        "matcher": "Write"
+      }
+    ]
+  }
+}
